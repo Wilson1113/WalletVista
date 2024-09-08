@@ -1,0 +1,43 @@
+.Transaction-table {
+  width: 100%;
+  margin-right: 20vh;
+}
+.Transaction-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10vh;
+}
+.Transaction-table th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #333;
+}
+.Transaction-table th {
+  background-color: #222;
+  font-weight: bold;
+}
+.crypto-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.receive {
+  color: #00b894;
+}
+.send {
+  color: #ff7675;
+}
+.note {
+  font-size: 14px;
+  color: #999;
+  margin-top: 20px;
+  text-align: center;
+}
+.note a {
+  color: #00b894;
+  text-decoration: none;
+}
+.note a:hover {
+  text-decoration: underline;
+}

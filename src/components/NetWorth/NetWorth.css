@@ -1,0 +1,17 @@
+.networth {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: fit-content;
+  background-color: var(--tertiary-color);
+  padding: 3vh 20vw;
+  border-radius: 2vh;
+}
+.networth h2{
+  font-size: 3.3vh;
+  margin: 0;
+}
+.networth h1 {
+  font-size: 4.5vh; 
+  margin: 0;
+}

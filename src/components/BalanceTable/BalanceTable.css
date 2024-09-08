@@ -1,0 +1,29 @@
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 2vh;
+}
+
+th, td {
+  padding: 1vh;
+  text-align: left;
+}
+
+th {
+  color: var(--secondary-color);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.7vh;
+  letter-spacing: 0.11vh;
+}
+
+tbody tr {
+  background-color: var(--hover-color);
+}
+
+.balance-table {
+  background-color: var(--tertiary-color);
+  padding: 1vh 2vw;
+  border-radius: 2vh;
+  margin-top: 4vh;
+}

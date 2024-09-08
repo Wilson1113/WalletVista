@@ -1,0 +1,29 @@
+:root {
+  font-family: Fredoka, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: rgb(18, 18, 18);
+  --primary-color: #00f8b7;
+  --secondary-color: #0c8162;
+  --tertiary-color: rgb(24, 24, 24);
+  --hover-color: rgb(56, 56, 56, 0.1);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.main-container {
+  display: flex;
+}
+body {
+  margin: 0;
+  width: 100%;
+}
+.dashboard-content {
+  width: fit-content;
+  margin: 3vh auto;
+}
